@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom";
-import lineBreak from "../assets/lineBreak.svg"
-import fancyLines from "../assets/fancyLines.svg"
+import lineBreak from "../assets/lineBreak.svg";
 import SendButton from "../lib/SendButton";
 import SocialLinks from "./SocialLinks";
 
@@ -19,6 +17,7 @@ type Footer = {
 };
 
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const footer: Footer = {
     columns: [
         {
