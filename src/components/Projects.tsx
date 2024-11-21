@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import apparivo from "../assets/apparivo.png";
 import regico from "../assets/Regico.png";
 import booking from "../assets/booking.png";
+import argia from "../assets/argia.png";
 import navigi from "../assets/navigi.jpg";
 
 const projectsList = [
@@ -34,6 +35,13 @@ const projectsList = [
         desc: "This is a side website that I mainly did to experiment with new libraries and it is a progressing idea to make booking budget stays an easy task for both clients and owners of dormitories, apartments, and hotel rooms.",
         link: "https://drive.google.com/file/d/1AoRGXoSOE2dlADqvEcMqk4pjIuKuTlLH/view?usp=drive_link"
     },
+    {
+        id: "5",
+        title: "Hate Speech/Offensive Language Detection",
+        img: argia,
+        desc: "Argia is a web application that uses deep learning to detect hate speech and offensive language in text. Built with a microservices architecture, it offers scalable, real-time content moderation. The application includes a feedback system that allows user input to improve the model's performance over time by adding new data for future trainings, enhancing accuracy and adaptability.",
+        link: "https://drive.google.com/file/d/1SerKZDffCdHfRDlHRTikeRb37Kx9H8jJ/view?usp=drive_link"
+    }
 ];
 
 const Projects = (): ReactElement => {
